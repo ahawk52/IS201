@@ -1,0 +1,84 @@
+/* Style definition for paragraphs */
+p {
+    font-weight: bold;
+}
+
+/* Style definition for the top heading */
+#top {
+    text-decoration: wavy;
+}
+
+/* Style definition for the body */
+body {
+    background-color: rgb(255, 228, 204);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 20px solid black;
+    margin: 40px;
+    padding: 100px;
+}
+
+/* Style definition for centered lists */
+.center-list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.center-list li {
+    text-align: left;
+}
+
+/* Style definition for content container */
+.content {
+    display: flex;
+}
+
+/* Style definition for text content */
+.text {
+    flex: 1;
+}
+
+/* Style definition for media content */
+.media {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style definition for h1 heading */
+h1 {
+    color: slategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style definition for ordered lists */
+ol {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+/* Style definition for unordered lists */
+ul {
+    font-weight: 500;
+}
+
+/* Style definition for the tableauPlaceholder div */
+.tableauPlaceholder {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    margin: 20px auto; /* Add margin for spacing */
+    max-width: 800px; /* Limit maximum width of the visualization */
+    text-align: center; /* Center-align content */
+}
+.positioned-div {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 251, 190);
+    padding: 5px;
+    border-radius: 5px;
+}
